@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuberto</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/sidebar.css">
 
 </head>
 
@@ -19,13 +19,14 @@
                     alt="" />
                 <div id="right">
                     <a href="" id="menu">menu</a>
-                    <div class="hamburger" onclick="dropDown(this); sideBar()">
+                    <!-- <div class="hamburger" onclick="dropDown(this); sideBar()"> -->
+                    <div class="hamburger" >
                         <div id="bar1" ></div>
                         <div id="bar2" ></div>
                     </div>
                 </div>
             </nav>
-            <div class="sidebar" id="sidebar">
+            <!-- <div class="sidebar" id="sidebar">
                 <div class="sb-cont">
                     <ul class="links-list">
                         <li><a hreu88f="">Home</a></li>
@@ -45,12 +46,11 @@
                         <li><a href="">@</a></li>
                     </ul>
                 </div>
-
-            </div>
+            </div> -->
             <div id="homemain">
                 <div class="headings">
                     <h1>We <em>develop</em> </h1>
-                    <h1>digital products</h1>
+                    <h1> <em>digital</em> products</h1>
                     <h1>from  <em>scratch</em> </h1>
                 </div>
                 <video loop mute autoplay  src="https://cdn.cuberto.com/cb/showreel/1.mp4"></video>
@@ -64,7 +64,7 @@
                 <a> How we work?</a>
             </div>
         </div>
-        <div id="featured" onmouseenter="invert()" onmouseleave="devert()" on="hambar()">
+        <div id="featured" class="flex" onmouseenter="invert()" onmouseleave="devert()" on="hambar()">
             <div class="f-container">
                 <div id="fheading">
                     <h1>Featured</h1>
@@ -103,7 +103,7 @@
                 <h1>Our</h1>
                 <h1>Philosophy</h1>
             </div>
-            <div class="ph-details">
+            <div class="ph-details flex-row">
                <video loop mute autoplay  src="https://cdn.cuberto.com/cb/home/summary/1.mp4?3"></video>
                 <p>In our team, developers work alongside designers, strategists and analysts. Cuberto doesn't do
                     cookie-cutter solutions and we build products exactly as they were during the design phase, no short
@@ -154,9 +154,9 @@
                     <img src="https://cdn.cuberto.com/cb/upload/ca9d9580b67854cbc017f4058591c833.png">
                 </div>
             </div>
-            <div class="res-deatils">
-                <p>We regularly release design courses, <br> offer advice to newbie designers, walk <br> you through
-                    creating awesome effects, <br> and share source files.</p>
+            <div class="res-deatils flex-col">
+                <p>We regularly release design courses,offer advice to newbie designers, walk you through
+                    creating awesome effects, and share source files.</p>
                 <a href="">view all resources</a>
             </div>
         </div>
@@ -176,11 +176,11 @@
             </div>
 
             <div class="con-down">
-                <div class="con-down-left">
+                <div class="con-down-left flex-col">
                     <p> <em>main office</em> Universe, 123</p>
                     <a href="">info@example.com</a>
                 </div>
-                <div class="con-down-right">
+                <div class="con-down-right flex-col">
                     <p> <em>second office</em> Paradise, 123/4</p>
                     <a href="">+123 456 789</a>
                 </div>
@@ -200,7 +200,7 @@
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="src/script.js"></script>
 
 </body>
 

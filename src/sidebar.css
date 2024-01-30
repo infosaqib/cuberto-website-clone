@@ -8,10 +8,12 @@
     width: 40%;
     transition: all 1s ease;
     z-index: 100;
+    opacity: 0;
 }
 
 #sidebar.show {
-    right: 0px
+    right: 0px;
+    opacity: 1;
 }
 
 .sb-cont {
@@ -89,4 +91,19 @@
 
 .change #bar2 {
     transform: translate(0, -6px) rotate(45deg);
+}
+
+
+
+@media (max-width: 770px) {
+    .hamburger {
+        top: 2rem;
+        right: 2rem;
+    }
+
+    #bar1,
+    #bar2 {
+        height: 1px;
+        width: 3.5vw;
+    }
 }
