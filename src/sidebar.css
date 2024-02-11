@@ -103,7 +103,8 @@
 
     #bar1,
     #bar2 {
-        height: 1px;
-        width: 3.5vw;
+        margin: 0.9vw 0px;
+        height: 2px;
+        width: 5.5vw;
     }
 }

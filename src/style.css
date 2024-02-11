@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+*:focus-visible {
+    outline: 1px solid #bababa;
+    border-radius: 2%;
+}
+
 *::selection {
     background-color: #000;
     color: #fff;
@@ -18,7 +23,7 @@ body {
     overflow-x: hidden;
 }
 
- /* -------------------- DECLARED STYLES -------------- */
+/* -------------------- DECLARED STYLES -------------- */
 
 .flex {
     display: flex;
@@ -74,7 +79,7 @@ body {
     position: relative;
     right: 45px;
     top: 9px;
-    font-size: 1.4vw;
+    font-size: 1.4rem;
     font-weight: 300;
     text-decoration: none;
     color: #212529;
@@ -113,13 +118,13 @@ body {
 
 #homemain .headings h1 {
     font-family: "Roboto Flex", sans-serif;
-    font-size: 8vw;
+    font-size: 6rem;
     color: #212529;
     font-weight: 400;
     font-family: Matter, sans-serif;
     letter-spacing: -0.01em;
     font-stretch: 195%;
-    line-height: 8vw;
+    line-height: 6rem;
 }
 
 #homemain .headings h1 em {
@@ -132,25 +137,26 @@ body {
 
 #homelast {
     display: flex;
-    align-items: flex-end;
-    justify-content: end;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     margin-bottom: 7vw;
-    padding-right: 14vw;
+    padding-right: 0;
 
 }
 
 #homelast p {
-    font-size: 2.1vw;
+    font-size: 1.6rem;
     color: #000;
     letter-spacing: 0px;
     font-weight: 500;
-    width: 35vw;
+    width: 70vw;
+    text-align: center;
 }
 
 #homelast a {
     background-color: #fff;
-    font-size: 2vw;
+    font-size: 1.9rem;
     color: #212529;
     border: 1px solid #000;
     border-radius: 100px;
@@ -195,7 +201,7 @@ body {
 
 #fheading h1,
 #fheading>em {
-    font-size: 110px;
+    font-size: 8rem;
     color: #fff;
     font-weight: lighter;
     font-family: Matter, sans-serif;
@@ -254,7 +260,7 @@ body {
     top: -95px;
     left: 0.7em;
     color: #fff;
-    font-size: 2vw;
+    font-size: 1.4rem;
     letter-spacing: 0px;
     font-weight: 500;
     text-transform: capitalize;
@@ -273,12 +279,14 @@ body {
 }
 
 .ph-heading {
+    width: 90%;
+    position: relative;
     margin-left: 7rem;
     margin-top: 7rem;
 }
 
 .ph-heading h1 {
-    font-size: 120px;
+    font-size: 9rem;
     color: #212529;
     font-weight: 400;
     font-family: Matter, sans-serif;
@@ -304,7 +312,7 @@ body {
 
 
 .ph-details p {
-    font-size: 1.8vw;
+    font-size: 1.6rem;
     color: #000;
     letter-spacing: 0px;
     font-weight: 500;
@@ -324,12 +332,12 @@ body {
 }
 
 .res-heading {
-    margin-left: 7rem;
-    margin-top: 9rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
 }
 
 .res-heading h1 {
-    font-size: 9vw;
+    font-size: 7rem;
     color: #fff;
     font-weight: lighter;
     font-family: Matter, sans-serif;
@@ -398,7 +406,7 @@ body {
 }
 
 .res-deatils p {
-    font-size: 2.3vw;
+    font-size: 1.8rem;
     width: 60vw;
     text-align: center;
     color: #fff;
@@ -408,7 +416,7 @@ body {
 
 
 .res-deatils a {
-    font-size: 2.1vw;
+    font-size: 1.7rem;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 100px;
@@ -447,7 +455,7 @@ body {
 }
 
 .con-heading h1 {
-    font-size: 120px;
+    font-size: 6.9rem;
     color: #000;
     font-weight: lighter;
     font-family: Matter, sans-serif;
@@ -460,7 +468,7 @@ body {
 }
 
 .con-links h3 {
-    font-size: 15px;
+    font-size: 1rem;
     color: #000;
     text-transform: uppercase;
     margin-left: 4rem;
@@ -477,7 +485,7 @@ body {
     text-align: start;
     color: #000;
     padding: 6vh 3vw;
-    font-size: 24px;
+    font-size: 1.4rem;
     transition: .25s;
     cursor: pointer;
 }
@@ -502,7 +510,7 @@ body {
 
 .con-down-left p,
 .con-down-right p {
-    font-size: 20px;
+    font-size: 1.3rem;
     color: #000;
     font-weight: 600;
     margin: 1.5rem;
@@ -512,7 +520,7 @@ body {
 .con-down-left p>em,
 .con-down-right p>em {
     position: relative;
-    font-size: 10px;
+    font-size: 0.85rem;
     text-transform: uppercase;
     top: -0.35em;
     font-weight: bold;
@@ -523,7 +531,7 @@ body {
 
 .con-down-left a,
 .con-down-right a {
-    font-size: 1.7vw;
+    font-size: 1.2rem;
     color: #000;
     border: 1px solid #000;
     border-radius: 100px;
@@ -569,9 +577,9 @@ body {
 .foot-up h1,
 .foot-up em {
     color: #fff;
-    font-size: 4vw;
+    font-size: 2.3rem;
     text-align: center;
-    font-size: 120px;
+    font-size: 6.9rem;
     font-stretch: 195%;
     font-weight: 200;
 }
@@ -579,7 +587,7 @@ body {
 .foot-up button {
     display: inline-block;
     background-color: #000;
-    font-size: 5vw;
+    font-size: 5.5rem;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 100px;
@@ -638,7 +646,7 @@ body {
 .foot-down a {
     display: inline-block;
     background-color: #000;
-    font-size: 1.2vw;
+    font-size: 1.2rem;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 100px;
@@ -703,7 +711,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 14px;
+        font-size: 1rem;
         cursor: pointer;
     }
 
@@ -751,6 +759,10 @@ body {
         transform: scale(0.98);
     }
 
+    .res-deatils>a {
+        font-size: 1.4rem;
+    }
+
     .res-deatils>a:hover {
         background-color: #fff;
         color: #000;
@@ -784,25 +796,29 @@ body {
     }
 
     #homelast p {
-        font-size: 2.6vw;
-        width: 30vw;
+        font-size: 1.5rem;
     }
 
     #fheading h1,
     #fheading>em,
     .ph-heading h1 {
-        font-size: 12vw;
+        font-size: 6rem;
     }
+
     #nav a#menu {
-        font-size: 2.1vw;
+        font-size: 1.7rem;
         margin-right: 0;
     }
-    
+
     .ph-details p {
-        font-size: 2.3vw;
+        font-size: 1.4rem;
+        text-align: justify;
     }
+
     .res-heading h1 {
-        font-size: 12vw;}
+        font-size: 6rem;
+    }
+
     .res-deatils {
         display: flex;
         align-items: center;
@@ -811,14 +827,14 @@ body {
     }
 
     .res-deatils p {
-        font-size: 2.3vw;
+        font-size: 1.5rem;
         width: 60vw;
         text-align: center;
     }
 
     .res-deatils a,
     #nav a#menu {
-        font-size: 2.1vw;
+        font-size: 1.15rem;
         margin-right: 0;
     }
 
@@ -840,10 +856,17 @@ body {
         visibility: hidden;
     }
 
-    #homelast a {
-        padding: 4vh 3vw;
-        margin: 5vh 7.5vw 3vh 0;
+    #homemain .headings h1 {
+        font-size: 4.8rem;
+        line-height: 5rem;
     }
+
+    #homelast a {
+        font-size: 1.7rem;
+        padding: 6vw;
+        /* margin: 5vh 7.5vw 3vh 0; */
+    }
+
     .f-card-collection {
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
@@ -856,13 +879,14 @@ body {
 
     .f-card-col-1 h3,
     .f-card-col-2 h3 {
-        font-size: 3vw;
+        font-size: 1.3rem;
         left: 3.9em;
     }
 
     .f-card-col-2 {
         margin-top: 0;
     }
+
     .ph-details video {
         width: 70vw;
     }
@@ -871,31 +895,65 @@ body {
         flex-direction: column;
         padding: 9vw 0;
     }
+
     .ph-heading {
         margin: 6vw 0 0 6vw;
     }
 
     .ph-heading h1 {
-        font-size: 18vw;
+        font-size: 4.35rem;
     }
 
-   
+
     .ph-details p {
-        font-size: 1.2rem;
+        text-align: justify;
+        font-size: 1.3rem;
         width: 85%;
     }
 
+    .res-heading h1 {
+        font-size: 5rem;
+    }
+
+    .res-deatils a,
+    #nav a#menu,
+    .res-deatils p {
+        font-size: 1.3rem;
+    }
+
+    .con-heading h1 {
+        font-size: 6rem;
+    }
+
+    .con-down-left p,
+    .con-down-right p {
+        font-size: 1.1rem;
+    }
+
+    .con-down-left a,
+    .con-down-right a {
+        font-size: 1rem;
+    }
+
+    .foot-down a {
+        font-size: 1rem;
+    }
+    .foot-up h1, .foot-up em, .foot-up button {
+        font-size: 5rem;
+    }
 }
 
 @media (max-width: 550px) {
 
     #homemain .headings {
-        margin-left: 4vw;
+        margin-left: 2rem;
+        margin-left: .5rem;
+
     }
 
     #homemain .headings h1 {
-        font-size: 12vw;
-        line-height: 13.5vw;
+        font-size: 3.5rem;
+        line-height: 4rem;
     }
 
     #homemain .headings h1:nth-child(2) {
@@ -911,19 +969,12 @@ body {
         margin: 3.5rem 0;
     }
 
-    #nav img {
-        width: 80px;
-    }
-
-
-
-
     #homelast p {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     #homelast a {
-        font-size: 3vw;
+        font-size: 1.5rem;
         padding: 3vh 7vw;
         margin: 1.3rem 0;
         margin-right: 2.5vw;
@@ -941,7 +992,7 @@ body {
 
     #fheading h1,
     #fheading>em {
-        font-size: 13vw;
+        font-size: 4rem;
         letter-spacing: 2px;
     }
 
@@ -961,7 +1012,7 @@ body {
     .f-card-col-2 h3 {
         top: -35px;
         left: 13vw;
-        font-size: 4vw;
+        font-size: 1rem;
     }
 
     #philoso,
@@ -970,7 +1021,17 @@ body {
         top: 0;
     }
 
-  
+
+    .ph-details {
+        gap: 3vh;
+    }
+
+    .ph-details p {
+        text-align: justify;
+        font-size: 1.1rem;
+        width: 85%;
+    }
+
 
 
     .res-heading {
@@ -978,7 +1039,7 @@ body {
     }
 
     .res-heading h1 {
-        font-size: 12vw;
+        font-size: 3.3rem;
     }
 
     .res-card img {
@@ -994,34 +1055,35 @@ body {
     }
 
     .res-deatils {
-        align-items: start;
+        align-items: center;
         justify-content: start;
         margin: 4vw;
     }
 
     .res-deatils p {
-        font-size: 4.5vw;
+        font-size: 1.1rem;
+        font-weight: 400;
         width: 80%;
     }
 
     .res-deatils a {
-        font-size: 4.7vw;
+        font-size: 1rem;
         padding: 1vh 3vw;
         margin: 0 0 0 4vw;
     }
 
     .con-heading h1 {
-        font-size: 15vw;
+        font-size: 4rem;
     }
 
     .con-social-links {
         padding: 5vw;
-        font-size: 4vw;
+        font-size: 1rem;
     }
 
     .con-links h3 {
         letter-spacing: 1px;
-        font-size: 3.5vw;
+        font-size: .9rem;
         margin-left: 6vw;
         margin-bottom: 7.5vw;
     }
@@ -1041,20 +1103,20 @@ body {
 
     .con-down-left p,
     .con-down-right p {
-        font-size: 6.6vw;
-        font-weight: 100;
+        font-size: 1.4rem;
+        font-weight: 500;
     }
 
     .con-down-left p>em,
     .con-down-right p>em {
-        font-size: 3vw;
+        font-size: .8rem;
         font-weight: 400;
         top: -0.4em;
     }
 
     .con-down-left a,
     .con-down-right a {
-        font-size: 5vw;
+        font-size: .9rem;
         padding: 1.7vh 2vw;
     }
 
@@ -1064,7 +1126,7 @@ body {
 
     .foot-up h1,
     .foot-up em {
-        font-size: 16vw;
+        font-size: 4rem;
     }
 
 
@@ -1073,7 +1135,7 @@ body {
     }
 
     .foot-up button {
-        font-size: 10vw;
+        font-size: 3.5rem;
         padding: 3vh 5vw;
     }
 
@@ -1083,7 +1145,7 @@ body {
     }
 
     .foot-down a {
-        font-size: 4.2vw;
+        font-size: 1rem;
     }
 
 
