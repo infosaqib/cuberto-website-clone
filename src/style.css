@@ -615,7 +615,7 @@ body {
 .foot-up a {
 
     color: #ffffff;
-    font-size: .8rem;
+    font-size: .6rem;
     font-weight: 400;
 }
 
@@ -889,7 +889,7 @@ body {
     }
 
     .ph-details video {
-        width: 70vw;
+        width: 75vw;
     }
 
     .ph-details {
@@ -899,6 +899,7 @@ body {
 
     .ph-heading {
         margin: 6vw 0 0 6vw;
+        width: 90%;
     }
 
     .ph-heading h1 {
@@ -972,11 +973,11 @@ body {
     }
 
     #homelast p {
-        font-size: 6vw;
+        font-size: 5vw;
     }
 
     #homelast a {
-        font-size: 6vw;
+        font-size: 5vw;
         padding: 4vh 7vw;
         margin: 1.3rem 0;
         margin-right: 2.5vw;
@@ -993,6 +994,7 @@ body {
     }
 
     #fheading :where(h1, em) {
+        font-weight: 500;
         font-size: 18vw;
         letter-spacing: 2px;
     }
@@ -1030,7 +1032,7 @@ body {
     .ph-details p {
         font-weight: 400;
         text-align: left;
-        font-size: 6vw;
+        font-size: 5vw;
         width: 85%;
         line-height: 8vw;
     }
@@ -1038,6 +1040,7 @@ body {
 
 
     .res-heading {
+        width: 90%;
         margin: 2rem 0 0 2rem
     }
 
@@ -1046,7 +1049,7 @@ body {
     }
 
     .res-card img {
-        height: 50vw;
+        height: 52vw;
     }
 
     .res-card:nth-child(1) {
@@ -1064,7 +1067,7 @@ body {
     }
 
     .res-deatils p {
-        font-size: 5.5vw;
+        font-size: 5vw;
         font-weight: 200;
         width: 90%;
         line-height: 7vw;
@@ -1129,7 +1132,7 @@ body {
     }
 
     .foot-up :where(h1, em) {
-        font-size: 20vw;
+        font-size: 16vw;
     }
 
 
@@ -1138,7 +1141,7 @@ body {
     }
 
     .foot-up button {
-        font-size: 15vw;
+        font-size: 12vw;
         padding: 3vh 7vw;
     }
 
