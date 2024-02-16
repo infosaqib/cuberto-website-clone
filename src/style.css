@@ -903,7 +903,7 @@ body {
     }
 
     .ph-heading h1 {
-        font-size: 18vw;
+        font-size: 14vw;
     }
 
 
@@ -974,6 +974,7 @@ body {
 
     #homelast p {
         font-size: 5vw;
+        line-height: 7vw;
     }
 
     #homelast a {
@@ -994,8 +995,7 @@ body {
     }
 
     #fheading :where(h1, em) {
-        font-weight: 500;
-        font-size: 18vw;
+        font-size: 14vw;
         letter-spacing: 2px;
     }
 
@@ -1045,7 +1045,7 @@ body {
     }
 
     .res-heading h1 {
-        font-size: 14vw;
+        font-size: 10vw;
     }
 
     .res-card img {
@@ -1068,10 +1068,9 @@ body {
 
     .res-deatils p {
         font-size: 5vw;
-        font-weight: 200;
         width: 90%;
         line-height: 7vw;
-        ;
+        
     }
 
     .res-deatils a {
@@ -1081,7 +1080,7 @@ body {
     }
 
     .con-heading h1 {
-        font-size: 16vw;
+        font-size: 12vw;
     }
 
     .con-social-links {
