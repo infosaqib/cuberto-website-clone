@@ -1046,11 +1046,11 @@ body {
     }
 
     .res-card img {
-        height: 43vw;
+        height: 50vw;
     }
 
     .res-card:nth-child(1) {
-        margin-left: 0;
+        margin-left: -22px;
     }
 
     .res-images {
@@ -1149,7 +1149,7 @@ body {
     }
 
     .foot-down a {
-        font-size: 1rem;
+        font-size: 4vw;
     }
 
 
