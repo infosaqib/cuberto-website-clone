@@ -1,5 +1,6 @@
 @forward "variables";
 @forward "sidebar";
+@forward "effects";
 
 #main {
   width: 100%;
@@ -119,6 +120,7 @@
     }
   }
 }
+
 
 @media (pointer: fine) {
   #homelast > a:hover {
@@ -568,75 +570,7 @@
     text-transform: uppercase;
   }
 }
-@media only screen and (min-width: 770px) {
-  .foot-up a span::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background: #ffffff;
-    visibility: visible;
-    -webkit-transform: scaleX(0);
-    -moz-transform: scaleX(0);
-    -ms-transform: scaleX(0);
-    -o-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -moz-transition: all 0.3s ease-in-out 0s;
-    -ms-transition: all 0.3s ease-in-out 0s;
-    -o-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-  }
 
-  .foot-up a:hover span::before {
-    visibility: visible;
-    -webkit-transform: scaleX(1);
-    -moz-transform: scaleX(1);
-    -ms-transform: scaleX(1);
-    -o-transform: scaleX(1);
-    transform: scaleX(1);
-  }
-
-  #homelast a:hover {
-    background-color: #000;
-    color: #fff;
-  }
-
-  .f-card video:hover ~ .cursor {
-    height: 20px;
-    width: 20px;
-  }
-
-  .res-card:hover {
-    transform: scale(0.98);
-  }
-
-  .res-deatils > a {
-    font-size: 1.4rem;
-
-    &:hover {
-      background-color: #fff;
-      color: #000;
-    }
-  }
-  .con-social-links:hover {
-    background-color: #000;
-    color: #fff;
-  }
-
-  :is(.con-down-left, .con-down-right) a:hover {
-    background-color: #000 ;
-    color: #fff;
-  }
-
-  .foot-up button:hover,
-  .foot-down a:hover {
-    background-color: #fff;
-    color: #000;
-  }
-}
 
 @media only screen and (max-width: 991px) {
   #homelast {
@@ -694,6 +628,11 @@
 }
 
 @media only screen and (max-width: 770px) {
+  .cursor{
+    visibility: hidden;
+    opacity: 0;
+  
+  }
   #nav a#menu {
     display: none;
     visibility: hidden;
