@@ -1,5 +1,11 @@
+//Video play
+// const setAutoPlay = ()=>{
+//   const videoElement = document.getElementsByClassName('f-card-video');
+//   videoElement.autoplay = window.matchMedia('(max-width: 768px)').matches;
+// }
 
-
+// window.addEventListener('resize', setAutoPlay);
+// setAutoPlay();
 
 //Hamburger 
 function dropDown(x) {
@@ -63,24 +69,24 @@ document.addEventListener("mousemove", function (e) {
 
 
 //------------------Cursor Color -----------------------
- function invert() {
+function invert() {
   cursor.classList.add('cursorInvert');
 };
 function devert() {
   cursor.classList.remove('cursorInvert');
 };
 
-function explore(){
-cursor.innerHTML = 'Explore';
-cursor.classList.add('large-cursor')
+function explore() {
+  cursor.innerHTML = 'Explore';
+  cursor.classList.add('large-cursor')
 }
-function drag(){
-cursor.innerHTML = 'Drag';
-cursor.classList.add('large-cursor')
+function drag() {
+  cursor.innerHTML = 'Drag';
+  cursor.classList.add('large-cursor')
 }
-function simple(){
-cursor.innerHTML = '';
-cursor.classList.remove('large-cursor')
+function simple() {
+  cursor.innerHTML = '';
+  cursor.classList.remove('large-cursor')
 }
 
 //------------------Hamburger color invert-----------------------
@@ -93,7 +99,7 @@ let contact = document.getElementById('contact');
 let bar1 = document.querySelector("#bar1");
 let bar2 = document.querySelector("#bar2");
 
-document.body.addEventListener('scroll', function(){
+document.body.addEventListener('scroll', function () {
   const rect1 = featured.getBoundingClientRect();
   const rect2 = philoso.getBoundingClientRect();
   const rect3 = resources.getBoundingClientRect();

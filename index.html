@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuberto</title>
-    <link rel="stylesheet" href="src/style.css">
-    <link rel="stylesheet" href="src/sidebar.css">
+    <link rel="stylesheet" href="./src/dist/style.css">
 
 </head>
 
@@ -20,9 +19,9 @@
                 <div id="right">
                     <a href="" id="menu">menu</a>
                     <!-- <div class="hamburger" onclick="dropDown(this); sideBar()"> -->
-                    <div class="hamburger" >
-                        <div id="bar1" ></div>
-                        <div id="bar2" ></div>
+                    <div class="hamburger">
+                        <div id="bar1"></div>
+                        <div id="bar2"></div>
                     </div>
                 </div>
             </nav>
@@ -48,14 +47,14 @@
                 </div>
             </div> -->
             <div id="homemain">
-                <div class="headings" >
+                <div class="headings">
                     <h1>We <em>develop</em> </h1>
                     <h1> <em>digital</em> products</h1>
-                    <h1>from  <em>scratch</em> </h1>
+                    <h1>from <em>scratch</em> </h1>
                 </div>
-                <video loop mute autoplay  src="https://cdn.cuberto.com/cb/showreel/1.mp4"></video>
+                <video loop mute autoplay src="https://cdn.cuberto.com/cb/showreel/1.mp4"></video>
             </div>
-            <div id="homelast" >
+            <div id="homelast">
                 <p>
                     Cuberto is a leading digital product agency focused on branding, UI/UX design, mobile, and web
                     development.
@@ -64,47 +63,58 @@
                 <a> How we work?</a>
             </div>
         </div>
-        <div id="featured" class="flex" onmouseenter="invert()" onmouseleave="devert()" on="hambar()">
+        <div id="featured" class="flex"  onmouseenter="invert()" onmouseleave="devert()"
+            >
             <div class="f-container">
-                <div id="fheading" >
+                <div id="fheading">
                     <h1>Featured</h1>
                     <em>projects</em>
                 </div>
-                <div class="f-card-collection" >
+                <div class="f-card-collection">
                     <div class="f-card-col-1">
-                        <div class="f-card flex" >
-                            <video  loop mute playsinline   onmouseover="this.play()" onmouseout="this.pause()" src="https://cdn.cuberto.com/cb/projects/puntopago/cover.mp4" onmouseenter="explore()" onmouseleave="simple()"></video>
+                        <div class="f-card flex">
+                            <video class="f-card-video" loop mute playsinline onmouseover="this.play()"
+                                onmouseout="this.pause()"  src="https://cdn.cuberto.com/cb/projects/puntopago/cover.mp4"
+                                onmouseenter="explore()" onmouseleave="simple()"></video>
                         </div>
                         <h3>Punto Pago</h3>
-                        <div class="f-card flex" >
-                            <video   loop mute playsinline   onmouseover="this.play()" onmouseout="this.pause()"  src="https://cdn.cuberto.com/cb/projects/riyadh/cover.mp4" onmouseenter="explore()" onmouseleave="simple()"></video>
+                        <div class="f-card flex">
+                            <video class="f-card-video" loop mute playsinline onmouseover="this.play()"
+                                onmouseout="this.pause()" src="https://cdn.cuberto.com/cb/projects/riyadh/cover.mp4"
+                                onmouseenter="explore()" onmouseleave="simple()"></video>
                         </div>
                         <h3>Riyadh</h3>
-                        <div class="f-card flex" >
-                            <video   loop mute playsinline   onmouseover="this.play()" onmouseout="this.pause()"  src="https://cdn.cuberto.com/cb/projects/qvino/cover.mp4" onmouseenter="explore()" onmouseleave="simple()" ></video>
+                        <div class="f-card flex">
+                            <video class="f-card-video" loop mute playsinline onmouseover="this.play()"
+                                onmouseout="this.pause()" src="https://cdn.cuberto.com/cb/projects/qvino/cover.mp4"
+                                onmouseenter="explore()" onmouseleave="simple()"></video>
                         </div>
                         <h3>Quino</h3>
                     </div>
                     <div class="f-card-col-2">
-                        <div class="f-card flex" >
-                            <video   loop mute playsinline   onmouseover="this.play()" onmouseout="this.pause()"  src="https://cdn.cuberto.com/cb/projects/flipaclip/cover.mp4" onmouseenter="explore()" onmouseleave="simple()" ></video>
+                        <div class="f-card flex">
+                            <video class="f-card-video" loop mute playsinline onmouseover="this.play()"
+                                onmouseout="this.pause()" src="https://cdn.cuberto.com/cb/projects/flipaclip/cover.mp4"
+                                onmouseenter="explore()" onmouseleave="simple()"></video>
                         </div>
                         <h3>flipaclip</h3>
-                        <div class="f-card flex" >
-                            <video   loop mute playsinline  onmouseover="this.play()" onmouseout="this.pause()"  src="https://cdn.cuberto.com/cb/projects/zelt/cover.mp4" onmouseenter="explore()" onmouseleave="simple()" ></video>
+                        <div class="f-card flex">
+                            <video class="f-card-video" loop mute playsinline onmouseover="this.play()"
+                                onmouseout="this.pause()" src="https://cdn.cuberto.com/cb/projects/zelt/cover.mp4"
+                                onmouseenter="explore()" onmouseleave="simple()"></video>
                         </div>
                         <h3>Zelt</h3>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="philoso">
+        <div id="philoso" >
             <div class="ph-heading">
                 <h1>Our</h1>
                 <h1>Philosophy</h1>
             </div>
             <div class="ph-details flex-row">
-               <video loop mute autoplay  src="https://cdn.cuberto.com/cb/home/summary/1.mp4?3"></video>
+                <video loop mute autoplay src="https://cdn.cuberto.com/cb/home/summary/1.mp4?3"></video>
                 <p>In our team, developers work alongside designers, strategists and analysts. Cuberto doesn't do
                     cookie-cutter solutions and we build products exactly as they were during the design phase, no short
                     cuts or simplifications. <br>
@@ -115,42 +125,42 @@
                 </p>
             </div>
         </div>
-        <div id="resources"  onmouseenter="invert()" onmouseleave="devert()">
+        <div id="resources" onmouseenter="invert()" onmouseleave="devert()">
             <div class="res-heading">
                 <h1>Development </h1>
                 <h1> and design </h1>
                 <h1> resources </h1>
             </div>
-            <div class="res-images" id="res-images"  onmouseenter="drag()" onmouseleave="simple()">
+            <div class="res-images" id="res-images" onmouseenter="drag()" onmouseleave="simple()">
 
-                <div class="res-card" >
-                    <img   src="https://cdn.cuberto.com/cb/upload/480b30071a8533b278c30dd7d9133f09.png" >
+                <div class="res-card">
+                    <img src="https://cdn.cuberto.com/cb/upload/480b30071a8533b278c30dd7d9133f09.png">
                 </div>
-                <div class="res-card" >
-                    <img src="https://cdn.cuberto.com/cb/upload/885fbbc555395f745746b23b73f539f5.png" >
+                <div class="res-card">
+                    <img src="https://cdn.cuberto.com/cb/upload/885fbbc555395f745746b23b73f539f5.png">
                 </div>
-                <div class="res-card" >
-                    <img src="https://cdn.cuberto.com/cb/upload/99d9ee549abf01940d4b1cfa04734b7d.jpg" >
+                <div class="res-card">
+                    <img src="https://cdn.cuberto.com/cb/upload/99d9ee549abf01940d4b1cfa04734b7d.jpg">
                 </div>
-                <div class="res-card" >
-                    <img src="https://cdn.cuberto.com/cb/upload/ef20532e8de88a471d4bd1338dc93414.png" >
+                <div class="res-card">
+                    <img src="https://cdn.cuberto.com/cb/upload/ef20532e8de88a471d4bd1338dc93414.png">
                 </div>
-                <div class="res-card" >
-                    <img src="https://cdn.cuberto.com/cb/upload/0555c249862fecc53b6f506ab736b9ba.png" >
+                <div class="res-card">
+                    <img src="https://cdn.cuberto.com/cb/upload/0555c249862fecc53b6f506ab736b9ba.png">
                 </div>
-                <div class="res-card" >
-                    <img src="https://cdn.cuberto.com/cb/upload/a1ed16046501be2d945ca6b223f26d14.png" >
+                <div class="res-card">
+                    <img src="https://cdn.cuberto.com/cb/upload/a1ed16046501be2d945ca6b223f26d14.png">
                 </div>
-                <div class="res-card" >
-                    <img src="https://cdn.cuberto.com/cb/upload/9fcc77bdd5a1a6ee96478cbbc5dbb61e.png" >
+                <div class="res-card">
+                    <img src="https://cdn.cuberto.com/cb/upload/9fcc77bdd5a1a6ee96478cbbc5dbb61e.png">
                 </div>
-                <div class="res-card" >
-                    <img src="https://cdn.cuberto.com/cb/upload/db09164414d9bb9e833c272b52a535d7.png" >
+                <div class="res-card">
+                    <img src="https://cdn.cuberto.com/cb/upload/db09164414d9bb9e833c272b52a535d7.png">
                 </div>
-                <div class="res-card" >
-                    <img src="https://cdn.cuberto.com/cb/upload/5d8af481d0a989e7762e005c7d2369c3.png" >
+                <div class="res-card">
+                    <img src="https://cdn.cuberto.com/cb/upload/5d8af481d0a989e7762e005c7d2369c3.png">
                 </div>
-                <div class="res-card" >
+                <div class="res-card">
                     <img src="https://cdn.cuberto.com/cb/upload/ca9d9580b67854cbc017f4058591c833.png">
                 </div>
             </div>
@@ -186,7 +196,7 @@
                 </div>
             </div>
         </div>
-        <div id="footer" class="flex-col" onmouseenter="invert()" onmouseleave="devert()" >
+        <div id="footer" class="flex-col" onmouseenter="invert()" onmouseleave="devert()">
             <div class="foot-up flex-col">
                 <h1>Have</h1>
                 <em>an idea?</em>
@@ -196,11 +206,11 @@
             <div class="foot-down">
                 <a href="/">info@example.com</a>
                 <a href="/">+123 456 789</a>
-                
+
             </div>
         </div>
     </div>
-        <script src="src/script.js"></script>
+    <script src="src/js/script.js"></script>
 </body>
 
 </html>
